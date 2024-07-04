@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Library Management System</h1>
+    </header>
+    <main>
+        <section id="add-book">
+            <h2>Add New Book</h2>
+            <form id="book-form">
+                <input type="text" id="title" placeholder="Title" required>
+                <input type="text" id="author" placeholder="Author" required>
+                <input type="text" id="genre" placeholder="Genre">
+                <input type="text" id="isbn" placeholder="ISBN">
+                <input type="number" id="publishedYear" placeholder="Published Year">
+                <input type="number" id="copiesAvailable" placeholder="Copies Available" required>
+                <button type="submit">Add Book</button>
+            </form>
+        </section>
+        <section id="register-member">
+            <h2>Register Member</h2>
+            <form id="member-form">
+                <input type="text" id="firstName" placeholder="First Name" required>
+                <input type="text" id="lastName" placeholder="Last Name" required>
+                <input type="date" id="dob" placeholder="Date of Birth">
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="tel" id="phoneNumber" placeholder="Phone Number">
+                <button type="submit">Register Member</button>
+            </form>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
